@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_unit/app/router.dart';
-import 'package:flutter_unit/blocs/bloc_exp.dart';
-import 'package:flutter_unit/model/widget_model.dart';
-import 'package:flutter_unit/views/items/collect_widget_list_item.dart';
+import 'package:flutter_study_widgets/app/router.dart';
+import 'package:flutter_study_widgets/blocs/collect/collect_bloc.dart';
+import 'package:flutter_study_widgets/blocs/collect/collect_event.dart';
+import 'package:flutter_study_widgets/blocs/collect/collect_state.dart';
+import 'package:flutter_study_widgets/blocs/detail/detail_bloc.dart';
+import 'package:flutter_study_widgets/blocs/detail/detail_event.dart';
+import 'package:flutter_study_widgets/model/widget_model.dart';
+import 'package:flutter_study_widgets/views/items/collect_widget_list_item.dart';
 
 /// create by 张风捷特烈 on 2020/6/16
 /// contact me by email 1981462002@qq.com

@@ -1,10 +1,8 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:flutter_unit/app/router.dart';
-import 'package:flutter_unit/components/permanent/animated_text.dart';
-import 'package:flutter_unit/components/permanent/circle_image.dart';
-import 'package:flutter_unit/components/permanent/feedback_widget.dart';
+import 'package:flutter_study_widgets/app/router.dart';
+import 'package:flutter_study_widgets/components/permanent/animated_text.dart';
+import 'package:flutter_study_widgets/components/permanent/circle_image.dart';
+import 'package:flutter_study_widgets/components/permanent/feedback_widget.dart';
 
 
 class BugUnitPage extends StatelessWidget {

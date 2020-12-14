@@ -1,17 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_star/flutter_star.dart';
-import 'package:flutter_unit/app/res/cons.dart';
-import 'package:flutter_unit/app/res/toly_icon.dart';
-import 'package:flutter_unit/app/utils/Toast.dart';
-import 'package:flutter_unit/blocs/bloc_exp.dart';
-import 'package:flutter_unit/components/permanent/feedback_widget.dart';
-import 'package:flutter_unit/components/permanent/panel.dart';
-import 'package:flutter_unit/components/project/widget_node_panel.dart';
-import 'package:flutter_unit/model/node_model.dart';
-import 'package:flutter_unit/model/widget_model.dart';
-import 'package:flutter_unit/views/pages/widget_detail/category_end_drawer.dart';
-import 'package:flutter_unit/views/widgets/widgets_map.dart';
+import 'package:flutter_star/star.dart';
+import 'package:flutter_star/star_score.dart';
+import 'package:flutter_study_widgets/app/res/cons.dart';
+import 'package:flutter_study_widgets/app/res/toly_icon.dart';
+import 'package:flutter_study_widgets/app/utils/Toast.dart';
+import 'package:flutter_study_widgets/blocs/collect/collect_bloc.dart';
+import 'package:flutter_study_widgets/blocs/collect/collect_event.dart';
+import 'package:flutter_study_widgets/blocs/collect/collect_state.dart';
+import 'package:flutter_study_widgets/blocs/detail/detail_bloc.dart';
+import 'package:flutter_study_widgets/blocs/detail/detail_event.dart';
+import 'package:flutter_study_widgets/blocs/detail/detail_state.dart';
+import 'package:flutter_study_widgets/blocs/global/global_bloc.dart';
+import 'package:flutter_study_widgets/blocs/global/global_state.dart';
+import 'package:flutter_study_widgets/components/permanent/feedback_widget.dart';
+import 'package:flutter_study_widgets/components/permanent/panel.dart';
+import 'package:flutter_study_widgets/components/project/widget_node_panel.dart';
+import 'package:flutter_study_widgets/model/node_model.dart';
+import 'package:flutter_study_widgets/model/widget_model.dart';
+import 'package:flutter_study_widgets/views/pages/widget_detail/category_end_drawer.dart';
+import 'package:flutter_study_widgets/views/widgets/widgets_map.dart';
 
 class WidgetDetailPage extends StatefulWidget {
   final WidgetModel model;

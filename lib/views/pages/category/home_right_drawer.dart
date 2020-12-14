@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_unit/blocs/bloc_exp.dart';
-import 'package:flutter_unit/components/permanent/circle.dart';
-import 'package:flutter_unit/views/common/unit_drawer_header.dart';
+import 'package:flutter_study_widgets/blocs/home/home_bloc.dart';
+import 'package:flutter_study_widgets/components/permanent/circle.dart';
+import 'package:flutter_study_widgets/views/app/common/unit_drawer_header.dart';
 
 import 'edit_category_panel.dart';
 

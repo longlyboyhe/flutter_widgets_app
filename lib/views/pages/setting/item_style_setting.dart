@@ -7,6 +7,7 @@ import 'package:flutter_study_widgets/blocs/global/global_event.dart';
 import 'package:flutter_study_widgets/blocs/global/global_state.dart';
 import 'package:flutter_study_widgets/components/permanent/circle.dart';
 import 'package:flutter_study_widgets/components/permanent/feedback_widget.dart';
+import 'package:flutter_study_widgets/views/items/home_item_support.dart';
 
 
 /// create by 张风捷特烈 on 2020-04-10

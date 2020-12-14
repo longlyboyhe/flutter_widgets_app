@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_unit/app/res/style/unit_color.dart';
-import 'package:flutter_unit/app/utils/color_utils.dart';
-import 'package:flutter_unit/blocs/bloc_exp.dart';
-import 'package:flutter_unit/components/permanent/edit_panel.dart';
-import 'package:flutter_unit/components/permanent/input_button.dart';
-import 'package:flutter_unit/components/project/color_chooser.dart';
-import 'package:flutter_unit/model/category_model.dart';
+import 'package:flutter_study_widgets/app/res/style/unit_color.dart';
+import 'package:flutter_study_widgets/app/utils/color_utils.dart';
+import 'package:flutter_study_widgets/blocs/category/category_bloc.dart';
+import 'package:flutter_study_widgets/blocs/category/category_event.dart';
+import 'package:flutter_study_widgets/components/permanent/edit_panel.dart';
+import 'package:flutter_study_widgets/components/permanent/input_button.dart';
+import 'package:flutter_study_widgets/components/project/color_chooser.dart';
+import 'package:flutter_study_widgets/model/category_model.dart';
 
 /// create by 张风捷特烈 on 2020-04-23
 /// contact me by email 1981462002@qq.com

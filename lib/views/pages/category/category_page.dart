@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_unit/app/router.dart';
-import 'package:flutter_unit/blocs/bloc_exp.dart';
-import 'package:flutter_unit/components/permanent/circle.dart';
-
-import 'package:flutter_unit/model/category_model.dart';
-import 'package:flutter_unit/views/dialogs/delete_category_dialog.dart';
-import 'package:flutter_unit/views/items/category_list_item.dart';
+import 'package:flutter_study_widgets/app/router.dart';
+import 'package:flutter_study_widgets/blocs/category/category_bloc.dart';
+import 'package:flutter_study_widgets/blocs/category/category_event.dart';
+import 'package:flutter_study_widgets/blocs/category/category_state.dart';
+import 'package:flutter_study_widgets/blocs/category_widget/category_widget_bloc.dart';
+import 'package:flutter_study_widgets/blocs/category_widget/category_widget_event.dart';
+import 'package:flutter_study_widgets/components/permanent/circle.dart';
+import 'package:flutter_study_widgets/model/category_model.dart';
+import 'package:flutter_study_widgets/views/app/dialogs/delete_category_dialog.dart';
+import 'package:flutter_study_widgets/views/items/category_list_item.dart';
 
 import 'edit_category_panel.dart';
 

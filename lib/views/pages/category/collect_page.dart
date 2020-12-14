@@ -1,11 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_unit/app/router.dart';
-import 'package:flutter_unit/blocs/bloc_exp.dart';
-import 'package:flutter_unit/components/permanent/circle_image.dart';
-import 'package:flutter_unit/components/permanent/feedback_widget.dart';
-
+import 'package:flutter_study_widgets/app/router.dart';
+import 'package:flutter_study_widgets/blocs/home/home_bloc.dart';
+import 'package:flutter_study_widgets/components/permanent/circle_image.dart';
+import 'package:flutter_study_widgets/components/permanent/feedback_widget.dart';
 import 'category_page.dart';
 import 'default_collect_page.dart';
 

@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_unit/app/res/style/unit_text_style.dart';
-import 'package:flutter_unit/blocs/bloc_exp.dart';
-import 'package:flutter_unit/components/permanent/circle.dart';
-import 'package:flutter_unit/components/permanent/panel.dart';
-import 'package:flutter_unit/model/category_model.dart';
-import 'package:flutter_unit/model/widget_model.dart';
-import 'package:flutter_unit/repositories/itf/category_repository.dart';
-import 'package:flutter_unit/views/common/unit_drawer_header.dart';
+import 'package:flutter_study_widgets/app/res/style/unit_text_style.dart';
+import 'package:flutter_study_widgets/blocs/category/category_bloc.dart';
+import 'package:flutter_study_widgets/blocs/category/category_state.dart';
+import 'package:flutter_study_widgets/blocs/category_widget/category_widget_bloc.dart';
+import 'package:flutter_study_widgets/blocs/category_widget/category_widget_event.dart';
+import 'package:flutter_study_widgets/components/permanent/circle.dart';
+import 'package:flutter_study_widgets/components/permanent/panel.dart';
+import 'package:flutter_study_widgets/model/category_model.dart';
+import 'package:flutter_study_widgets/model/widget_model.dart';
+import 'package:flutter_study_widgets/repositories/itf/category_repository.dart';
+import 'package:flutter_study_widgets/views/app/common/unit_drawer_header.dart';
 
 /// create by 张风捷特烈 on 2020-04-22
 /// contact me by email 1981462002@qq.com
