@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets_app/widgets/button/FlatButtonWidget.dart';
 import 'package:flutter_widgets_app/widgets/button/IconButtonWidget.dart';
 import 'package:flutter_widgets_app/widgets/button/OutLineButtonWidget.dart';
+import 'package:flutter_widgets_app/widgets/choose/check_box_widget.dart';
+import 'package:flutter_widgets_app/widgets/choose/checkbox_list_tile_widget.dart';
+import 'package:flutter_widgets_app/widgets/choose/radio_button_widget.dart';
+import 'package:flutter_widgets_app/widgets/choose/radio_list_tile_widget.dart';
+import 'package:flutter_widgets_app/widgets/choose/switch_list_tile_widget.dart';
+import 'package:flutter_widgets_app/widgets/choose/switch_widget.dart';
 import 'package:flutter_widgets_app/widgets/text/TextWidgets.dart';
 
 void main() {
@@ -56,7 +62,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 color: Colors.black,
                 child: Text('Button Widgets',
+                    style: TextStyle(color:Colors.white,fontSize: 14))),
+            RaisedButton(onPressed: (){
+              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+                return CheckboxListTileWidget();
+              }));
+            },
+                color: Colors.black,
+                child: Text('选择组件Widgets',
                     style: TextStyle(color:Colors.white,fontSize: 14)))
+
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
