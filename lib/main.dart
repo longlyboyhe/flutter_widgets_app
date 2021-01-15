@@ -9,6 +9,7 @@ import 'package:flutter_widgets_app/widgets/choose/radio_list_tile_widget.dart';
 import 'package:flutter_widgets_app/widgets/choose/switch_list_tile_widget.dart';
 import 'package:flutter_widgets_app/widgets/choose/switch_widget.dart';
 import 'package:flutter_widgets_app/widgets/text/TextWidgets.dart';
+import 'package:flutter_widgets_app/widgets/textField/text_field_widgets.dart';
 
 void main() {
   runApp(MyApp());
@@ -35,7 +36,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,32 +46,46 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView(
           children: <Widget>[
             RaisedButton(
-                padding: EdgeInsets.only(left: 20,right: 20),
-                onPressed:(){
-                  Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+                padding: EdgeInsets.only(left: 20, right: 20),
+                onPressed: () {
+                  Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (context) {
                     return TextWidgets();
                   }));
                 },
                 color: Colors.black,
                 child: Text('Text Widgets',
-                    style: TextStyle(color:Colors.white,fontSize: 14))),
-            RaisedButton(onPressed: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-                return IconButtonWidget();
-              }));
+                    style: TextStyle(color: Colors.white, fontSize: 14))),
+            RaisedButton(
+                onPressed: () {
+                  Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (context) {
+                    return IconButtonWidget();
+                  }));
                 },
                 color: Colors.black,
                 child: Text('Button Widgets',
-                    style: TextStyle(color:Colors.white,fontSize: 14))),
-            RaisedButton(onPressed: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-                return CheckboxListTileWidget();
-              }));
-            },
+                    style: TextStyle(color: Colors.white, fontSize: 14))),
+            RaisedButton(
+                onPressed: () {
+                  Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (context) {
+                    return CheckboxListTileWidget();
+                  }));
+                },
                 color: Colors.black,
                 child: Text('选择组件Widgets',
-                    style: TextStyle(color:Colors.white,fontSize: 14)))
-
+                    style: TextStyle(color: Colors.white, fontSize: 14))),
+            RaisedButton(
+                onPressed: () {
+                  Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (context) {
+                    return TextFieldWidgets();
+                  }));
+                },
+                color: Colors.black,
+                child: Text('TextField Widgets',
+                    style: TextStyle(color: Colors.white, fontSize: 14)))
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
