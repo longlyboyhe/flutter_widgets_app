@@ -9,6 +9,7 @@ import 'package:flutter_widgets_app/widgets/choose/radio_list_tile_widget.dart';
 import 'package:flutter_widgets_app/widgets/choose/switch_list_tile_widget.dart';
 import 'package:flutter_widgets_app/widgets/choose/switch_widget.dart';
 import 'package:flutter_widgets_app/widgets/form/form_field_widget.dart';
+import 'package:flutter_widgets_app/widgets/progress/progress_indicator_widget.dart';
 import 'package:flutter_widgets_app/widgets/text/TextWidgets.dart';
 import 'package:flutter_widgets_app/widgets/textField/text_field_widgets.dart';
 
@@ -96,6 +97,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 color: Colors.black,
                 child: Text('Form Widgets',
+                    style: TextStyle(color: Colors.white, fontSize: 14))),
+            RaisedButton(
+                onPressed: () {
+                  Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (context) {
+                    return ProgressIndicatorWidget();
+                  }));
+                },
+                color: Colors.black,
+                child: Text('ProgressIndicatorWidget',
                     style: TextStyle(color: Colors.white, fontSize: 14)))
           ],
         ),
